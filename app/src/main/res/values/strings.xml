@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MyFirebasePushNotification</string>
+    <string name="msg_token_fmt">Megalodon %s</string>
+</resources>
