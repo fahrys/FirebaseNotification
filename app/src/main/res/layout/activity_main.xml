@@ -13,6 +13,7 @@
         android:layout_width="370dp"
         android:backgroundTint="@color/kamu"
         android:layout_height="250dp"
+        android:layout_marginTop="100dp"
         android:layout_gravity="center"
         app:cardCornerRadius="20dp">
 
@@ -95,13 +96,35 @@
 
     </androidx.cardview.widget.CardView>
 
-    <com.airbnb.lottie.LottieAnimationView
-        android:layout_height="100dp"
-        android:layout_width="100dp"
-        android:layout_centerInParent="true"
-        app:lottie_speed="0.5"
-        app:lottie_loop="true"
-        app:lottie_rawRes="@raw/anime"
-        app:lottie_autoPlay="true"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="200dp"
+        android:layout_height="80dp">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_height="100dp"
+            android:layout_width="100dp"
+            android:layout_centerInParent="true"
+            app:lottie_speed="0.5"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/anime"
+            app:lottie_autoPlay="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:fontFamily="@font/amarante"
+            android:text="Firebase Notification"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold|italic" />
+
+    </LinearLayout>
+
 
 </LinearLayout>
